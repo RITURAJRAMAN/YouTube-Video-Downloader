@@ -2,7 +2,7 @@ from tkinter import *
 from pytube import YouTube
 
 window = Tk()
-window.title("Future Keys")
+window.title("YouTube Downloader")
 window.geometry('500x400')
 window.configure(bg='black')
 Label(window, text="YouTube Video Downloader", font="algerian 22 bold", bg='OrangeRed1').place(x=30, y=20)
